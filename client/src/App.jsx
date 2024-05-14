@@ -1,12 +1,14 @@
 import './App.css'
+import Sidebar from './Sidebar'
 
 function App() {
-
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline bg-red-500">
-        Hello world!
-      </h1>
+    <div className='flex'>
+      <Sidebar />
+      <div className='flex-1 flex flex-col'>
+        <h1> Header </h1>
+        <h2> Body </h2>
+      </div>
     </div>
   )
 }

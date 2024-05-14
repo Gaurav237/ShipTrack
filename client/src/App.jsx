@@ -1,13 +1,17 @@
 import './App.css'
+import Header from './Header'
 import Sidebar from './Sidebar'
+import Dashboard from './pages/Dashboard'
 
 function App() {
   return (
     <div className='flex'>
       <Sidebar />
       <div className='flex-1 flex flex-col'>
-        <h1> Header </h1>
-        <h2> Body </h2>
+        <Header />
+        <Dashboard>
+
+        </Dashboard>
       </div>
     </div>
   )

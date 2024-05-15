@@ -1,12 +1,14 @@
 import React from 'react';
 import Card from './Card';
 import GoogleMaps from './GoogleMaps'
+import PieChart from './PieChart';
+import Tabs from './Tabs';
 
 function Dashboard() {
   return (
-    <div>
+    <div className='bg-gray-200'>
       {/* Cards  */}
-      <div className="flex justify-evenly bg-gray-100 p-4">
+      <div className="flex justify-evenly bg-gray-200 p-4">
       <Card 
         title="Total Bookings" 
         value="501 Bookings" 
@@ -47,12 +49,16 @@ function Dashboard() {
             </svg>
         }
       />
-    </div>
+      </div>
 
     {/* google maps */}
     <GoogleMaps />
 
-    
+    <div>
+      <Tabs />
+      {/* <PieChart /> */}
+     </div>
+
     </div>
   );
 }

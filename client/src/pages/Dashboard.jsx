@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import GoogleMaps from './GoogleMaps'
 
 function Dashboard() {
   return (
@@ -49,7 +50,7 @@ function Dashboard() {
     </div>
 
     {/* google maps */}
-        
+    <GoogleMaps />
 
     
     </div>

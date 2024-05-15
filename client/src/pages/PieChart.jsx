@@ -116,7 +116,7 @@ const PieChart = () => {
       </div>
       <div className="w-48">
         <Pie data={data4} options={options}/>
-        <h2 className="font-medium text-center mt-2 mb-6">Consignee or Shipper</h2>
+        <h2 className="font-medium text-center mt-2 mb-6">Milestones</h2>
         <div className="flex flex-col items-center">
           {backgroundColors_.map((color, index) => (
             <div key={index} className="flex items-center mb-2">

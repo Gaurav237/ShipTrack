@@ -3,8 +3,10 @@ import Card from './Card';
 import GoogleMaps from './GoogleMaps'
 import PieChart from './PieChart';
 import Tabs from './Tabs';
+import Documents from './Documents';
 
 function Dashboard() {
+
   return (
     <div className='bg-gray-200'>
       {/* Cards  */}
@@ -56,7 +58,16 @@ function Dashboard() {
 
     <div>
       <Tabs />
-      {/* <PieChart /> */}
+      <div className="flex">
+        <Documents />
+
+        {/* Announcements section */}
+        <div className="w-1/2 p-4">
+          <h2 className="text-xl font-bold mb-4">Announcements</h2>
+          <p>Soon you will see latest announcements in this section.</p>
+          {/* Add more announcements as needed... */}
+        </div>
+      </div>
      </div>
 
     </div>

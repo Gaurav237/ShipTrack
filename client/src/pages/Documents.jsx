@@ -13,7 +13,7 @@ function Documents() {
     ];
 
     return (
-        <div className="w-1/2 mx-10 bg-white p-4 border border-gray-200 rounded-lg  ">
+        <div className="w-1/2 mx-10 bg-white p-4 border border-gray-200 rounded-xl  ">
             <h2 className="text-xl font-bold mb-4">Latest Documents</h2>
             <div className='h-80 overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-300'>
             {documents.map((doc, index) => (

@@ -24,7 +24,7 @@ function Tabs() {
     <div className="my-6 mx-10 py-6 px-8 border rounded-xl bg-white" >
       <div className="flex">
       <h2 className="ml-2 text-lg font-bold">Pie Chart Analysis</h2>
-      <div className="flex justify-center mx-auto pb-4 space-x-8">
+      <div className="flex justify-center mx-auto pb-4 space-x-8 pr-10">
         {data.map(({ label, value }) => (
           <button
             key={value}

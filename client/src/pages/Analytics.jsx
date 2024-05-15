@@ -7,6 +7,7 @@ function Analytics() {
     <div className='bg-gray-200'>
       <TopTabs />
       <Top2Tabs />
+      
     </div>
   );
 }

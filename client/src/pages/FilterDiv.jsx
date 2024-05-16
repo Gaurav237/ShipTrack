@@ -3,7 +3,7 @@ import Dropdown from './DropDown';
 
 function FilterDiv() {
   return (
-    <div className="flex space-x-7">
+    <div className="flex space-x-7 bg-white p-3 rounded-xl">
       <div className="flex items-center space-x-2">
         <h2 className='font-medium'>Type</h2>
         <Dropdown/>

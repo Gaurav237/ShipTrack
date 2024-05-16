@@ -1,10 +1,15 @@
 import React from 'react';
 import FilterDiv from './FilterDiv';
+import MilestonesChart from './MilestonesChart';
 
 function ContainerDiv() {
   return (
-    <div className="flex flex-col justify-between py-2 px-6 bg-white rounded-full">
+    <div className="flex flex-col justify-between py-2 px-6 rounded-xl">
       <FilterDiv />
+      <div className='flex justify-between mt-8'>
+        <MilestonesChart />
+        <MilestonesChart />
+      </div>
     </div>
   );
 }

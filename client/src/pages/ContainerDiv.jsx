@@ -1,6 +1,7 @@
 import React from 'react';
 import FilterDiv from './FilterDiv';
 import MilestonesChart from './MilestonesChart';
+import TimeLinesChart from './TimeLinesChart';
 
 function ContainerDiv() {
   return (
@@ -8,7 +9,7 @@ function ContainerDiv() {
       <FilterDiv />
       <div className='flex justify-between mt-8'>
         <MilestonesChart />
-        <MilestonesChart />
+        <TimeLinesChart />
       </div>
     </div>
   );

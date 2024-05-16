@@ -1,13 +1,11 @@
 import React from 'react';
 import TopTabs from './TopTabs';
-import Top2Tabs from './Top2Tabs';
+
 
 function Analytics() {
   return (
-    <div className='bg-gray-200'>
+    <div className='bg-gray-200 h-screen w-full'>
       <TopTabs />
-      <Top2Tabs />
-      
     </div>
   );
 }

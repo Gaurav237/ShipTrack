@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='flex'>
       <Sidebar />
-      <div className='flex-1 flex flex-col'>
+      <div className='flex-1 flex flex-col h-screen w-full'>
         <Header />
         <Routes>
           <Route index element={<Dashboard />} />

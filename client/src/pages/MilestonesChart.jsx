@@ -30,7 +30,7 @@ const MilestonesChart = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center py-5 px-14 bg-white rounded-xl">
+    <div className="w-1/2 flex flex-col items-center justify-center py-5 px-5 mr-6 bg-white rounded-xl">
       <div className='flex justify-between w-full'>
         <h2 className="text-lg font-semibold">Milestones</h2>
         <div className="border rounded-xl text-gray-400 px-3 py-1 rounded">

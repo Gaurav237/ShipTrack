@@ -27,7 +27,7 @@ const TimeLinesChart = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center py-5 p-14 bg-white rounded-xl">
+    <div className="w-1/2 flex flex-col items-center justify-center py-5 px-5 ml-6 bg-white rounded-xl">
       <div className='w-full'>
         <h2 className="text-lg font-semibold">TimeLines</h2>
       </div>

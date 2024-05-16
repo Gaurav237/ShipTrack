@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Top2Tabs from './Top2Tabs';
 
 function TopTabs() {
   const data = [
@@ -19,7 +20,7 @@ function TopTabs() {
   const [activeTab, setActiveTab] = useState("sea");
 
   return (
-    <div className="mx-auto py-6 px-8" >
+    <div className="mx-auto py-6 px-8 w-full" >
       <div className="flex">
       <div className="flex justify-center mx-auto pb-4 space-x-8 pr-10">
         {data.map(({ label, value }) => (
@@ -37,13 +38,13 @@ function TopTabs() {
         ))}
       </div>
       </div>
-      <div className="">
-        {data.map(({ value, desc }) => (
+      <div className="w-full">
+        {data.map(({ value }) => (
           <div
             key={value}
             className={activeTab === value ? "block" : "hidden"}
           >
-            
+            <Top2Tabs />
           </div>
         ))}
       </div>

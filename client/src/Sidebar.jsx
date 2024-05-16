@@ -1,10 +1,10 @@
-// Sidebar.js
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Sidebar() {
   return (
-    <div className='bg-gray-200'>
+    <div className='bg-gray-200 h-screen'>
     <div className="bg-red-900 text-white w-64 space-y-6 py-14 px-2 rounded-r-xl">
       <Link to="/" className="flex items-center justify-center space-x-2 py-3 hover:bg-gray-200 hover:bg-opacity-50 hover:rounded">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

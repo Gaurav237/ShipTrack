@@ -22,7 +22,7 @@ function Top2Tabs() {
           </button>
         </div>
         </div>
-        <div className="p-5 w-full">
+        <div className=" w-full">
           <ContainerDiv />
           {/* {activeTab === 'Shipments' ? <ContainerDiv /> : <ContainerDiv /> } */}
         </div>

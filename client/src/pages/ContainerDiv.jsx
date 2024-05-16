@@ -3,10 +3,11 @@ import FilterDiv from './FilterDiv';
 import MilestonesChart from './MilestonesChart';
 import TimeLinesChart from './TimeLinesChart';
 import ScrollCard from './ScrollCard';
+import TableDiv from './TableDiv';
 
 function ContainerDiv() {
   return (
-    <div className="flex flex-col justify-between py-2 px-6 rounded-xl w-full space-y-6">
+    <div className="flex flex-col justify-between py-4 rounded-xl w-full space-y-6">
       <FilterDiv />
       <div className='flex justify-between'>
         <MilestonesChart />
@@ -22,6 +23,7 @@ function ContainerDiv() {
         <ScrollCard title={"Consignee"} />
         <ScrollCard title={"Carrier"} />
       </div>
+      <TableDiv />
     </div>
   );
 }
